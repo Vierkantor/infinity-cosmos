@@ -60,7 +60,7 @@ jobs:
 
       - name: Build project documentation.
         id: build-docgen
-        uses: Vierkantor/docgen-tester@main
+        uses: leanprover-community/docgen-action@main
         with:
           blueprint: true
           homepage: home_page
